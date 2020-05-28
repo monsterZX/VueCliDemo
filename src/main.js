@@ -3,7 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import ElementUI from 'element-ui'
-import './styles.scss'
+import './assets/styles/styles.scss'
+import 'normalize.css'
+import 'nprogress/nprogress.css'
 
 Vue.use(ElementUI)
 
